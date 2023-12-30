@@ -22,4 +22,5 @@ Explore language prediction effortlessly with our Python, Flask, and Docker comb
 6. Send Request: Click the "Send" button to send the request to your Flask API. 
 7. View Response: Postman will display the response from the Flask API. This should include the language prediction based on the input provided.
 8. Repeat for Additional Requests: You can repeat the process for different inputs to observe real-time language predictions.
+
 By following these steps, you can use Postman to interact with your Flask API running in a Docker container. This allows you to send requests, receive language predictions in real-time, and test the functionality of your language prediction project effortlessly.
