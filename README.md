@@ -8,7 +8,7 @@ Explore language prediction effortlessly with our Python, Flask, and Docker comb
 4. first directory named 'templates', in which the html file will placed (index.html)
 5. the second named 'modelAndDataset', where the dataset and the python code (your model) will be in it (Language Detection.csv, Language Detection.ipynb)
    So, the arrangement will be like this:
-     -->Language Prediction Project:
+   -->Language Prediction Project:\n
          -app2.py
          -Dockerfile
          -model.py
