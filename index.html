@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Detection</title>
+
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          background-color: antiquewhite;
+        }
+        .div2 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          padding: 30px;
+          transform: translate(-50%, -50%);
+          border: 1px solid black;
+        }
+      </style>
+      
+</head>
+<body>
+    <h1>Language Detection</h1>
+<!--
+    <form action="http://localhost:5000" method="post">
+        <label for="text_input">Enter Text:</label>
+        <textarea id="text_input" name="text_input" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Detect Language">
+    </form>
+
+    <h2>Result:</h2>
+    <p>{{ result }}</p>
+    -->
+    <div class="div2">
+        <form action="http://localhost:5000" , method="POST">
+          <p>
+            <label for="text_input">Enter Text:</label>
+            <textarea id="text_input" name="text_input" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Detect Language">
+          </p>
+        </form>
+        <br />
+        <p>Predicted Language: {{result}}</p>
+      </div>
+</body>
+</html>
